@@ -3,12 +3,12 @@ import logging
 # Configure logging
 logging.basicConfig(
     filename="bot/logs/bot_usage.log",
-    level=logging.INFO,
+    level=logging.WARNING,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
 def log_usage(event: str, chat_id: int, username: str = "Unknown"):
-    logging.info(f"Event: {event} | Chat ID: {chat_id} | Username: {username}")
+    logging.warning(f"Event: {event} | Chat ID: {chat_id} | Username: {username}")
 
 def parse_poll_arguments(message_lines):
     options = []

@@ -26,9 +26,13 @@ def parse_poll_arguments(message_lines):
             poll_type = line[len("--type"):].strip().lower()
             allow_multiple_answers = poll_type != "single"
         else:
-            options.append(line)
+            option = line.split('(')[0].strip()  # Get text before the first '('
+            options.append(option)
 
     if last_option:
         options.append(last_option)
+
+    if len(options)>10:
+        options = options[:10]
 
     return title, options, allow_multiple_answers

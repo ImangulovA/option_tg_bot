@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b22eef-3a41-4ba4-b2a2-021de350445a" name="Changes" comment="Changed structure of logs to the one that suits me better">
-      <change afterPath="$PROJECT_DIR$/bot/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/options_tg_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/options_tg_bot.iml" afterDir="false" />
+    <list default="true" id="a4b22eef-3a41-4ba4-b2a2-021de350445a" name="Changes" comment="v 1.02 changed requirements for heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732899036860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v 1.01 added heroku-specific info">
+      <option name="closed" value="true" />
+      <created>1732901204637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732901204638</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v 1.02 changed requirements for heroku">
+      <option name="closed" value="true" />
+      <created>1732901956875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732901956875</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -147,7 +160,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,6 +183,8 @@
     <MESSAGE value="First commit: v.1.0, cleaner version, but still, the one that running from local machine" />
     <MESSAGE value="Fixed small bugs (auto-cut brackets from options list, size of options reduced to 10)" />
     <MESSAGE value="Changed structure of logs to the one that suits me better" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed structure of logs to the one that suits me better" />
+    <MESSAGE value="v 1.01 added heroku-specific info" />
+    <MESSAGE value="v 1.02 changed requirements for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 1.02 changed requirements for heroku" />
   </component>
 </project>
